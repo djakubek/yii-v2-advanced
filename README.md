@@ -57,7 +57,7 @@ Press any key to continue . . .
 
 6. Uruchom przeglądarkę WEB http://localhost/6/frontend/web/index.php
 Powinna się uruchomić aplikacja
-7. Zmiana języka na polski w pliku frontend/config/main-local.php
+7. Zmiana języka na polski w pliku frontend/config/main-local.php i backend/config/main-local.php
 
 ```
 <?php
@@ -72,5 +72,6 @@ $config = [
     ],
 ];
 ```
+8. Podłączenie do bazy danych w pliku common/config/main-local.php
 
 
