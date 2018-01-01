@@ -56,4 +56,21 @@ Press any key to continue . . .
 ```
 
 6. Uruchom przeglądarkę WEB http://localhost/6/frontend/web/index.php
+Powinna się uruchomić aplikacja
+7. Zmiana języka na polski w pliku frontend/config/main-local.php
+
+```
+<?php
+
+$config = [
+    'language'=>'pl',
+    'components' => [
+        'request' => [
+            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
+            'cookieValidationKey' => 'a_CmA3eOs4UwxiufdzKt7pyheg_9Zq3d',
+        ],
+    ],
+];
+```
+
 
